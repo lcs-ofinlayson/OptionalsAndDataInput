@@ -18,35 +18,35 @@
 
 // Attempt to convert a string with a numbers after the decimal sign to an integer
 let input1 = "20.0"
-//let input1AsInteger = Int(input1)
-//print("---")
-//print("input1AsInteger has a data type of:")
-//print(type(of: input1AsInteger))
-//print("===")
+let input1AsInteger = Int(input1)
+print("---")
+print("input1AsInteger has a data type of:")
+print(type(of: input1AsInteger))
+print("===")
 
 // Attempt to convert a string with no numbers after the decimal sign to an integer
 let input2 = "20"
-//let input2AsInteger = Int(input2)
-//print("---")
-//print("input2AsInteger has a data type of:")
-//print(type(of: input2AsInteger))
-//print("===")
+let input2AsInteger = Int(input2)
+print("---")
+print("input2AsInteger has a data type of:")
+print(type(of: input2AsInteger))
+print("===")
 
 // Attempt to convert a string that is not recognizable as a number to an integer
 let input3 = "twenty"
-//let input3AsInteger = Int(input3)
-//print("---")
-//print("input3AsInteger has a data type of:")
-//print(type(of: input3AsInteger))
-//print("===")
+let input3AsInteger = Int(input3)
+print("---")
+print("input3AsInteger has a data type of:")
+print(type(of: input3AsInteger))
+print("===")
 
 // Attempt to convert a string, "true", to an integer
 let input4 = "true"
-//let input4AsInteger = Int(input4)
-//print("---")
-//print("input4AsInteger has a data type of:")
-//print(type(of: input4AsInteger))
-//print("===")
+let input4AsInteger = Int(input4)
+print("---")
+print("input4AsInteger has a data type of:")
+print(type(of: input4AsInteger))
+print("===")
 
 /*:
  
