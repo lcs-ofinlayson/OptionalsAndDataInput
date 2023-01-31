@@ -60,7 +60,7 @@ let input4 = "true"
  
  Write down observations in your notebook.
  
- - Callout(Note):
+ - Note:
  You can Option-click a variable or constant to inspect it's data type:
  
  ![option-click](option-click.png)
