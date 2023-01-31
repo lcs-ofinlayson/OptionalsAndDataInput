@@ -34,7 +34,7 @@ print(type(of: input2AsInteger))
 print("===")
 
 // Now try to do arithmetic...
-//let area = input1AsInteger * input2AsInteger
+let area = input1AsInteger * input2AsInteger
 
 /*:
  

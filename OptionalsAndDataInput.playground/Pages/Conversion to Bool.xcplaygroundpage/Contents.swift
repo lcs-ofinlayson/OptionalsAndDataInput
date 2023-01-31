@@ -18,11 +18,11 @@
 
 // Attempt to convert a string with a numbers after the decimal sign to a boolean
 let input1 = "20.0"
-//let input1AsBool = Bool(input1)
-//print("---")
-//print("input1AsBool has a data type of:")
-//print(type(of: input1AsBool))
-//print("===")
+let input1AsBool = Bool(input1)
+print("---")
+print("input1AsBool has a data type of:")
+print(type(of: input1AsBool))
+print("===")
 
 // Attempt to convert a string with no numbers after the decimal sign to a boolean
 let input2 = "20"
