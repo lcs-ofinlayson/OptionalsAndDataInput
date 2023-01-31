@@ -6,7 +6,7 @@
  - Callout(Key Question):
  When can a string be converted to an integer?
  
- We are going to simulate input from a user and examine what happens when we attempt to change that input into an integer.
+ We are going to simulate input from a user and examine what happens when we attempt to change that input into an *integer*.
  
  You can uncomment a line (or lines) of code using the `Command-/` keyboard shortcut.
  

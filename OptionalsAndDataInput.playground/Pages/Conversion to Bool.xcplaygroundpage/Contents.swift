@@ -6,7 +6,7 @@
  - Callout(Key Question):
  When can a string be converted to a boolean value?
  
- We are going to simulate input from a user and examine what happens when we attempt to change that input into a boolean (true or false).
+ Finally, we will simulate input from a user and examine what happens when we attempt to change that input into a *boolean* (true or false).
  
  You can uncomment a line (or lines) of code using the `Command-/` keyboard shortcut.
  

@@ -15,7 +15,7 @@
 
 // Simulate first input
 let input1 = "20"
-// Convert first input to integer
+// Convert first input to integer, using the force-unwrap operator !
 let input1AsInteger = Int(input1)!
 // Print data type of first conversion
 print("---")
@@ -25,7 +25,7 @@ print("===")
 
 // Simulate second input
 let input2 = "10"
-// Convert second input to integer
+// Convert second input to integer, using the force-unwrap operator !
 let input2AsInteger = Int(input2)!
 // Print data type of second conversion
 print("---")

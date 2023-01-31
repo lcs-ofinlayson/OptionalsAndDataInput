@@ -40,7 +40,7 @@ print("===")
  
  ### Consider
  
- 1. Why does is the Swift compiler programmed in this manner?
+ 1. Why do you think the Swift compiler is programmed to behave this way?
  
  Write down your thoughts in your notebook.
    

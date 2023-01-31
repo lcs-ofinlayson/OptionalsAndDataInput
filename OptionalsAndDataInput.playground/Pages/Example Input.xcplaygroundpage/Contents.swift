@@ -6,9 +6,13 @@
  - Callout(Key Question):
  What data type is created when we accept input from the user in an app?
  
- Run the playground (you can use the `Command-Shift-Return` keyboard shortcut).
+ Run the playground using the `Command-Shift-Return` keyboard shortcut.
  
- Then type values into the input field in the Live View area at right.
+ You will see an input field at right in the Live View:
+ 
+ ![input-field](input-field.png)
+ 
+ Type values into the input field.
  
  You will see output appear in the Debug console below as you type.
  
@@ -38,9 +42,11 @@ struct ExampleInputView: View {
             let _ = print("-----")
 
             // Show actual output in console
+            let _ = print("Input is:")
             let _ = print(inputGiven)
 
             // Show data type in console
+            let _ = print("Data type is:")
             let _ = print(type(of: inputGiven))
             
             // Print marker for start of a section
@@ -60,13 +66,16 @@ PlaygroundPage.current.setLiveView(view)
  ### Consider
  
  1. In all cases when input is provided to a `TextField` in SwiftUI, what is the resulting data type?
- 2. What is the data type when no input has been provided?
+ 2. What is the data type when an empty string is provided? i.e.: `""`
  
  Write down observations in your notebook.
  
  - Callout(Aside):
- As you type, how many times is the code inside the structure run?
- Look at the results sidebar (between the code and the Live View area) in the playground to find the answer.
+    As you type, how many times are the lines of code inside the structure run?
+ 
+    Look at the results sidebar (between the code and the Live View area) while you type values into the input field.
+ 
+    ![input-field](results-sidebar.png)
  
  */
 //: [Next](@next)

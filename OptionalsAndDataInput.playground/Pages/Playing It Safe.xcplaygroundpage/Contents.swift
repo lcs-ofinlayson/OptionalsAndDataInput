@@ -17,7 +17,7 @@ import PlaygroundSupport
 
 // Simulate first input
 let input1 = "20"
-// Convert first input to integer
+// Convert first input to integer, using a guard statement
 guard let input1AsInteger = Int(input1) else {
     print("Please provide numeric input.")
     PlaygroundPage.current.finishExecution()
@@ -30,7 +30,7 @@ print("===")
 
 // Simulate second input
 let input2 = "10"
-// Convert second input to integer
+// Convert second input to integer, using a guard statement
 guard let input2AsInteger = Int(input2) else {
     print("Please provide numeric input.")
     PlaygroundPage.current.finishExecution()
