@@ -58,7 +58,7 @@ let input4 = "true"
  2. In what situations did the conversion from a string to an integer fail?
  3. What is the resulting value when a conversion from a string to an integer fails?
  4. What is the resulting value when a conversion from a string succeeds?
- 5. What is the data type of the resulting constant after a conversion occurs?
+ 5. What is the *data type* of the resulting constant after a conversion occurs?
  
  Write down your observations in your notebook.
  
