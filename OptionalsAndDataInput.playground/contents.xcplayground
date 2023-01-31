@@ -9,5 +9,6 @@
         <page name='Operations on Optionals'/>
         <page name='Living Dangerously'/>
         <page name='Playing It Safe'/>
+        <page name='Example'/>
     </pages>
 </playground>
