@@ -1,10 +1,49 @@
 import SwiftUI
+import PlaygroundSupport
 
 // The four main data types we have used are:
 // - Int        e.g.: -2, -1, 0, 1, 2
 // - Double     e.g.: 3.14159...
 // - Bool       e.g.: true, false
 // - String     e.g.: "Hello", "Goodbye", et cetera
+
+struct ExampleInputView: View {
+    
+    // MARK: Stored properties
+    @State var inputGiven = ""
+    
+    // MARK: Computed properties
+    var body: some View {
+        
+        VStack {
+            
+            Spacer()
+            
+            // Collect input from a TextField
+            TextField("Please enter a value", text: $inputGiven)
+            
+            Spacer()
+            
+            // Print a start marker divider
+            let _ = print("-----")
+
+            // Show actual output in console
+            let _ = print(inputGiven)
+
+            // Show data type in console
+            let _ = print(type(of: inputGiven))
+            
+            // Print an end marker divider
+            let _ = print("=====")
+                        
+        }
+        
+    }
+    
+}
+
+let view = ExampleInputView()
+PlaygroundPage.current.setLiveView(view)
 
 // Converting to an integer from a string...
 // =========================================
