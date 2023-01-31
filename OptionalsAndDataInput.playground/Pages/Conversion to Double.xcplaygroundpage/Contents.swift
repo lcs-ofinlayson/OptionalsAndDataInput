@@ -1,3 +1,5 @@
+//: [Previous](@previous)
+
 import SwiftUI
 import PlaygroundSupport
 
@@ -104,3 +106,6 @@ let input12AsInteger = Bool(input12)
 
 
 
+
+
+//: [Next](@next)
