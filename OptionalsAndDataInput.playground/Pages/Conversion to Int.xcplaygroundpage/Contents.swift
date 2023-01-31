@@ -58,7 +58,7 @@ let input4 = "true"
  4. What is the resulting value when a conversion from a string succeeds?
  5. In all cases, what is the *data type* of the resulting constant after a conversion occurs?
  
- Write down your observations in your notebook.
+ Write down observations in your notebook.
  
  - Callout(Note):
  You can Option-click a variable or constant to inspect it's data type:

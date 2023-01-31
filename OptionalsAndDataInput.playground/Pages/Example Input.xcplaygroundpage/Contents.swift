@@ -62,7 +62,7 @@ PlaygroundPage.current.setLiveView(view)
  1. In all cases when input is provided to a `TextField` in SwiftUI, what is the resulting data type?
  2. What is the data type when no input has been provided?
  
- Write down your observations in your notebook.
+ Write down observations in your notebook.
  
  - Callout(Aside):
  As you type, how many times is the code inside the structure run?

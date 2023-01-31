@@ -1,22 +1,22 @@
 //: [Previous](@previous)
 /*:
  
- ## Operations on optionals
+ ## Living Dangerously
  
  - Callout(Key Question):
- Can we do arithmetic with optional values?
+ What happens if choose to *force unwrap* optional values?
  
  First, run this page.
  
- Verify that the first four lines of code given work, and that 
+ Verify that the given code works.
   
- Uncomment line 37 below, then try to run this playground page.
+ Then uncomment line 37 below, then try to run this playground page.
  */
 
 // Simulate first input
 let input1 = "20"
 // Convert first input to integer
-let input1AsInteger = Int(input1)
+let input1AsInteger = Int(input1)!
 // Print data type of first conversion
 print("---")
 print("input1AsInteger has a data type of:")
@@ -26,7 +26,7 @@ print("===")
 // Simulate second input
 let input2 = "10"
 // Convert second input to integer
-let input2AsInteger = Int(input2)
+let input2AsInteger = Int(input2)!
 // Print data type of second conversion
 print("---")
 print("input2AsInteger has a data type of:")
@@ -38,11 +38,12 @@ print("===")
 
 /*:
  
- ### Consider
+ ### Consider and Experiment
  
- 1. Why does is the Swift compiler programmed in this manner?
+ 1. Did calculation of the area value work this time? If so, why?
+ 2. Change the simulated input on line 17 to be an empty string, like this: "", then run the playground again. What happens?
  
- Write down your thoughts in your notebook.
+ Write down observations in your notebook.
    
  */
 
