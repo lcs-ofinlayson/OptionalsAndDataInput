@@ -32,7 +32,6 @@ let input2 = "20"
 //print(type(of: input2AsDouble))
 //print("===")
 
-
 // Attempt to convert a string that is not recognizable as a number to a real number
 let input3 = "twenty"
 //let input3AsDouble = Double(input3)
@@ -40,7 +39,6 @@ let input3 = "twenty"
 //print("input3AsDouble has a data type of:")
 //print(type(of: input3AsDouble))
 //print("===")
-
 
 // Attempt to convert a string, "true", to a real number
 let input4 = "true"
@@ -58,7 +56,7 @@ let input4 = "true"
  2. In what situations did the conversion from a string to a real number fail?
  3. What is the resulting value when a conversion from a string to a real number fails?
  4. What is the resulting value when a conversion from a string succeeds?
- 5. What is the *data type* of the resulting constant after a conversion occurs?
+ 5. In all cases, what is the *data type* of the resulting constant after a conversion occurs?
  
  Write down your observations in your notebook.
  

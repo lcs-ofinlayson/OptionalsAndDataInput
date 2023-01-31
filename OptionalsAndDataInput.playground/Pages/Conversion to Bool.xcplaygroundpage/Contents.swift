@@ -1,108 +1,70 @@
 //: [Previous](@previous)
+/*:
+ 
+ ## Conversion to a boolean
+ 
+ - Callout(Key Question):
+ When can a string be converted to a boolean value?
+ 
+ We are going to simulate input from a user and examine what happens when we attempt to change that input into a boolean (true or false).
+ 
+ You can uncomment a line (or lines) of code using the `Command-/` keyboard shortcut.
+ 
+ Uncomment the first section of code. Run it.
+ 
+ Then uncomment remaining sections of code, one section at a time, running the playground each time to compare to earlier results.
+ 
+ */
 
-import SwiftUI
-import PlaygroundSupport
-
-// The four main data types we have used are:
-// - Int        e.g.: -2, -1, 0, 1, 2
-// - Double     e.g.: 3.14159...
-// - Bool       e.g.: true, false
-// - String     e.g.: "Hello", "Goodbye", et cetera
-
-struct ExampleInputView: View {
-    
-    // MARK: Stored properties
-    @State var inputGiven = ""
-    
-    // MARK: Computed properties
-    var body: some View {
-        
-        VStack {
-            
-            Spacer()
-            
-            // Collect input from a TextField
-            TextField("Please enter a value", text: $inputGiven)
-            
-            Spacer()
-            
-            // Print a start marker divider
-            let _ = print("-----")
-
-            // Show actual output in console
-            let _ = print(inputGiven)
-
-            // Show data type in console
-            let _ = print(type(of: inputGiven))
-            
-            // Print an end marker divider
-            let _ = print("=====")
-                        
-        }
-        
-    }
-    
-}
-
-let view = ExampleInputView()
-PlaygroundPage.current.setLiveView(view)
-
-// Converting to an integer from a string...
-// =========================================
-
-// Attempt to convert a string with a numbers after the decimal sign to an Int
+// Attempt to convert a string with a numbers after the decimal sign to a boolean
 let input1 = "20.0"
-let input1AsInteger = Int(input1)
+//let input1AsBool = Bool(input1)
+//print("---")
+//print("input1AsBool has a data type of:")
+//print(type(of: input1AsBool))
+//print("===")
 
-// Attempt to convert a string with no numbers after the decimal sign to an Int
+// Attempt to convert a string with no numbers after the decimal sign to a boolean
 let input2 = "20"
-let input2AsInteger = Int(input2)
+//let input2AsBool = Bool(input2)
+//print("---")
+//print("input2AsBool has a data type of:")
+//print(type(of: input2AsBool))
+//print("===")
 
-// Attempt to convert a string that is not recognizable as a number to an Int
+// Attempt to convert a string that is not recognizable as a number to a boolean
 let input3 = "twenty"
-let input3AsInteger = Int(input3)
+//let input3AsBool = Bool(input3)
+//print("---")
+//print("input3AsBool has a data type of:")
+//print(type(of: input3AsBool))
+//print("===")
 
-// Attempt to convert a string, "true" to an Int
+// Attempt to convert a string, "true", to a boolean
 let input4 = "true"
-let input4AsInteger = Int(input4)
+//let input4AsBool = Bool(input4)
+//print("---")
+//print("input4AsBool has a data type of:")
+//print(type(of: input4AsBool))
+//print("===")
 
-// Converting to a Double from a string...
-// =========================================
-
-// Attempt to convert a string with a numbers after the decimal sign to a Double
-let input5 = "20.0"
-let input5AsInteger = Double(input5)
-
-// Attempt to convert a string with no numbers after the decimal sign to a Double
-let input6 = "20"
-let input6AsInteger = Double(input6)
-
-// Attempt to convert a string that is not recognizable as a number to a Double
-let input7 = "twenty"
-let input7AsInteger = Double(input7)
-
-// Attempt to convert a string, "true" to a Double
-let input8 = "true"
-let input8AsInteger = Double(input8)
-
-// Converting to a Boolean from a string...
-// =========================================
-
-// Attempt to convert a string with a numbers after the decimal sign to a Double
-let input9 = "20.0"
-let input9AsInteger = Bool(input9)
-
-// Attempt to convert a string with no numbers after the decimal sign to a Double
-let input10 = "20"
-let input10AsInteger = Bool(input10)
-
-// Attempt to convert a string that is not recognizable as a number to a Double
-let input11 = "twenty"
-let input11AsInteger = Bool(input11)
-
-// Attempt to convert a string, "true" to a Double
-let input12 = "true"
-let input12AsInteger = Bool(input12)
-
+/*:
+ 
+ ### Consider
+ 
+ 1. In what situations did the conversion from a string to a boolean succeed?
+ 2. In what situations did the conversion from a string to a boolean fail?
+ 3. What is the resulting value when a conversion from a string to a boolean fails?
+ 4. What is the resulting value when a conversion from a string succeeds?
+ 5. In all cases, what is the *data type* of the resulting constant after a conversion occurs?
+ 
+ Write down your observations in your notebook.
+ 
+ - Callout(Note):
+ You can Option-click a variable or constant to inspect it's data type:
+ 
+ ![option-click](option-click.png)
+  
+ */
 
 //: [Next](@next)
